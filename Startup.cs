@@ -12,9 +12,9 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 
 using catalogo_jogos.Controllers.V1;
-
 using catalogo_jogos.Repositories;
 using catalogo_jogos.Services;
+using catalogo_jogos.Middleware;
 
 namespace catalogo_jogos
 {
@@ -34,10 +34,22 @@ namespace catalogo_jogos
             services.AddScoped<IJogoService, JogoService>();
             services.AddScoped<IJogoRepository, JogoRepository>();
 
+            #region CicloDeVida
+
+            services.AddSingleton<IExemploSingleton, ExemploCicloDeVida>();
+            services.AddScoped<IExemploScoped, ExemploCicloDeVida>();
+            services.AddTransient<IExemploTransient, ExemploCicloDeVida>();
+
+            #endregion
+
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "catalogo_jogos", Version = "v1" });
+
+              //  var basePath = AppDomain.CurrentDomain.BaseDirectory;
+              //  var fileName = typeof(Startup).GetTypeInfo().Assembly.GetName().Name + ".xml";
+              //  c.IncludeXmlComments(Path.Combine(basePath, fileName));
             });
         }
 
@@ -49,8 +61,11 @@ namespace catalogo_jogos
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "catalogo_jogos v1"));
+
             }
 
+            app.UseMiddleware<ExceptionMiddleware>();
+             
             app.UseHttpsRedirection();
 
             app.UseRouting();

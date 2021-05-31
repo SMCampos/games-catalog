@@ -56,3 +56,9 @@ C:\Projetos\catalogo-jogos\bin\Debug\net5.0\scriptcs_bin\Debug\net5.0\appsetting
 C:\Projetos\catalogo-jogos\bin\Debug\net5.0\scriptcs_bin\Debug\net5.0\catalogo-jogos.deps.json
 C:\Projetos\catalogo-jogos\bin\Debug\net5.0\scriptcs_bin\Debug\net5.0\catalogo-jogos.runtimeconfig.dev.json
 C:\Projetos\catalogo-jogos\bin\Debug\net5.0\scriptcs_bin\Debug\net5.0\catalogo-jogos.runtimeconfig.json
+C:\Projetos\catalogo-jogos\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Projetos\catalogo-jogos\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Projetos\catalogo-jogos\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Projetos\catalogo-jogos\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Projetos\catalogo-jogos\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Projetos\catalogo-jogos\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
