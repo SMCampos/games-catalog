@@ -4,7 +4,6 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 using catalogo_jogos.Exceptions;
@@ -12,8 +11,7 @@ using catalogo_jogos.InputModel;
 using catalogo_jogos.Services;
 using catalogo_jogos.ViewModel;
 
-
-namespace catalogojogos.Controllers.V1
+namespace catalogo_jogos.Controllers.V1
 {
     [Route("api/v1/[controller]")]
     [ApiController]

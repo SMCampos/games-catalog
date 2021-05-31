@@ -1,16 +1,20 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.IO;
+using System.Reflection;
+
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
+
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
+
 using Microsoft.OpenApi.Models;
+
+using catalogo_jogos.Controllers.V1;
+
+using catalogo_jogos.Repositories;
+using catalogo_jogos.Services;
 
 namespace catalogo_jogos
 {
@@ -26,6 +30,9 @@ namespace catalogo_jogos
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            services.AddScoped<IJogoService, JogoService>();
+            services.AddScoped<IJogoRepository, JogoRepository>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

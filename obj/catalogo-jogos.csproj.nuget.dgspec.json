@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Projetos\\catalogo-jogos\\catalogo-jogos.csproj": {}
+    "C:\\Projetos\\catalogo-jogos\\catalogo-jogos.csproj": {}
   },
   "projects": {
-    "c:\\Projetos\\catalogo-jogos\\catalogo-jogos.csproj": {
+    "C:\\Projetos\\catalogo-jogos\\catalogo-jogos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Projetos\\catalogo-jogos\\catalogo-jogos.csproj",
+        "projectUniqueName": "C:\\Projetos\\catalogo-jogos\\catalogo-jogos.csproj",
         "projectName": "catalogo-jogos",
-        "projectPath": "c:\\Projetos\\catalogo-jogos\\catalogo-jogos.csproj",
+        "projectPath": "C:\\Projetos\\catalogo-jogos\\catalogo-jogos.csproj",
         "packagesPath": "C:\\Users\\sandr\\.nuget\\packages\\",
-        "outputPath": "c:\\Projetos\\catalogo-jogos\\obj\\",
+        "outputPath": "C:\\Projetos\\catalogo-jogos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sandr\\AppData\\Roaming\\NuGet\\NuGet.Config",

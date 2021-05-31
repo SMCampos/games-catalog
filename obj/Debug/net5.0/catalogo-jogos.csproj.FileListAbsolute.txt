@@ -51,3 +51,8 @@ C:\Projetos\catalogo-jogos\obj\Debug\net5.0\catalogo-jogos.dll
 C:\Projetos\catalogo-jogos\obj\Debug\net5.0\ref\catalogo-jogos.dll
 C:\Projetos\catalogo-jogos\obj\Debug\net5.0\catalogo-jogos.pdb
 C:\Projetos\catalogo-jogos\obj\Debug\net5.0\catalogo-jogos.genruntimeconfig.cache
+C:\Projetos\catalogo-jogos\bin\Debug\net5.0\scriptcs_bin\Debug\net5.0\appsettings.Development.json
+C:\Projetos\catalogo-jogos\bin\Debug\net5.0\scriptcs_bin\Debug\net5.0\appsettings.json
+C:\Projetos\catalogo-jogos\bin\Debug\net5.0\scriptcs_bin\Debug\net5.0\catalogo-jogos.deps.json
+C:\Projetos\catalogo-jogos\bin\Debug\net5.0\scriptcs_bin\Debug\net5.0\catalogo-jogos.runtimeconfig.dev.json
+C:\Projetos\catalogo-jogos\bin\Debug\net5.0\scriptcs_bin\Debug\net5.0\catalogo-jogos.runtimeconfig.json

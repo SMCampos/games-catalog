@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wQNAZC0KDO18DX+n5VgUHRYLQRr6Yh+noJy3dNkAOO+Vv1hJWcUW1t4/62b8sPjuEL4PXV5ffjavtt7vkB9c5w==",
+  "dgSpecHash": "63ZH+hAXXoLOUoZuH90J7P3tQmVnPFo+NDhqfztq6Hi7UjsyNrfvLtHwzJ/gxQweHBMRvbNucJeMiSgTMC4CLA==",
   "success": true,
-  "projectFilePath": "c:\\Projetos\\catalogo-jogos\\catalogo-jogos.csproj",
+  "projectFilePath": "C:\\Projetos\\catalogo-jogos\\catalogo-jogos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sandr\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.1\\microsoft.aspnetcore.authentication.jwtbearer.5.0.1.nupkg.sha512",
     "C:\\Users\\sandr\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\5.0.1\\microsoft.aspnetcore.authentication.openidconnect.5.0.1.nupkg.sha512",
